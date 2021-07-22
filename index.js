@@ -78,7 +78,7 @@ module.exports = function (options = {}) {
 				});
 
 				const contents = file.contents.toString();
-				let newContents = replace(contents, modifiedRenames);
+				let newContents = replace('(?i)'+contents, modifiedRenames);
 
 				if (options.prefix) {
 					newContents = newContents.split('/' + options.prefix).join(options.prefix);
