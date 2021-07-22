@@ -4,6 +4,10 @@
 
 **This plugin is an improved and maintained fork of [gulp-rev-replace](https://github.com/jamesknelson/gulp-rev-replace).**
 
+## sayowayah's edits
+Make replace regex case insensitive
+Add in ~ to regex matches
+
 ## Install
 
 ```
